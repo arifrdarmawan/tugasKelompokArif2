@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:background="#000000">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ebe834">
+
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/arif" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:text="BioData"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Nama                  : Arif Rachmat Darmawan"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/ttg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="TTL                      : Bandung, 11 Agustus 2002"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/jk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ttg"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Jenis Kelamin    : Laki - Laki"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jk"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Alamat                : Jln. Otista No. 29-5C"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alamat"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Agama                : Islam"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agama"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Status                 : Pelajar"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:id="@+id/hobi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/status"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Hobby                 : Touring, Futsal, Volly"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
